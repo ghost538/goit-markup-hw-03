@@ -11,8 +11,28 @@ body {
 	color: #434455;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding-left: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
 .list {
 	list-style: none;
+	display: flex;
+	column-gap: 24px;
 }
 
 .link {
@@ -30,6 +50,31 @@ body {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	margin: -1px;
+}
+
+.section-img {
+	padding-bottom: 120px;
+}
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.img {
+	display: block;
+	height: auto;
+}
+
+.container {
+	max-width: 1158px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.wrap {
+	flex-wrap: wrap;
+	margin-top: 72px;
+	row-gap: 48px;
 }
 
 /* --Logo-- */
@@ -53,6 +98,16 @@ body {
 }
 
 /* --Nav-- */
+
+.header {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.368);
+	padding: 24px 0;
+}
+.container-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 
 .menu-item-link {
 	font-style: normal;
@@ -84,6 +139,8 @@ body {
 
 .hero {
 	background-color: var(--main-dark-color);
+	padding-top: 188px;
+	padding-bottom: 188px;
 }
 
 .hero-title {
@@ -93,6 +150,12 @@ body {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: white;
+	max-width: 490px;
+	margin: 0 auto 48px auto;
+}
+
+.hero-btn-center {
+	text-align: center;
 }
 
 .hero-btn {
@@ -103,7 +166,9 @@ body {
 	line-height: calc(19 / 16);
 	letter-spacing: 0.04em;
 	color: #ffffff;
-	cursor: pointer;
+	border-radius: 4px;
+	padding: 16px 32px;
+	min-width: 180px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -120,6 +185,7 @@ body {
 	line-height: calc(24 / 20);
 	letter-spacing: 0.02em;
 	color: var(--main-dark-color);
+	margin-bottom: 8px;
 }
 
 .text {
@@ -135,13 +201,30 @@ body {
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--main-dark-color);
+	margin-bottom: 72px;
+	padding-top: 120px;
 }
 
 .list-team {
 	background-color: var(--main-light-color);
 }
 
-/* --Button breadcrumbs-- */
+/* --breadcrumbs-- */
+
+.breadcrumbs {
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+.breadcrumbs-list{
+	justify-content: center;
+}
+
+.breadcrumbs-text {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 16px;
+}
 
 .breadcrumbs-btn {
 	font-family: inherit;
@@ -154,7 +237,7 @@ body {
 	background-color: var(--main-light-color);
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
-	cursor: pointer;
+	padding: 12px 24px;
 }
 
 .breadcrumbs-btn:hover,
@@ -167,8 +250,11 @@ body {
 
 .footer {
 	background-color: var(--main-dark-color);
+	padding: 100px 0;
 }
 
 .footer-text {
 	color: #e7e9fc;
+	margin-top: 16px;
+	width: 264px;
 }
