@@ -109,6 +109,19 @@ button {
 	justify-content: space-between;
 }
 
+.nav-menu {
+	display: flex;
+}
+
+.menu {
+	margin-left: 76px;
+	display: flex;
+}
+
+.menu-item:not(:first-child) {
+	margin-left: 40px;
+}
+
 .menu-item-link {
 	font-style: normal;
 	font-weight: 500;
@@ -135,6 +148,7 @@ button {
 .contact-item-link:focus {
 	color:var(--hover-color);
 }
+
 /* --Hero-- */
 
 .hero {
