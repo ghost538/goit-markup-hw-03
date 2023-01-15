@@ -248,14 +248,14 @@ button {
 	padding-bottom: 120px;
 }
 
-.breadcrumbs-list{
-	justify-content: center;
-}
-
 .breadcrumbs-text {
+	padding-left: 16px;
 	padding-top: 32px;
 	padding-bottom: 32px;
-	padding-left: 16px;
+}
+
+.breadcrumbs-width {
+	flex-basis: calc((100% - 96px) / 3);
 }
 
 .breadcrumbs-btn {
