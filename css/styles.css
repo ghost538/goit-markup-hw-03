@@ -100,7 +100,7 @@ button {
 /* --Nav-- */
 
 .header {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.368);
+	border-bottom: 1px solid #E7E9FC;
 	padding: 24px 0;
 }
 .container-header {
