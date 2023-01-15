@@ -254,6 +254,10 @@ button {
 	padding-bottom: 32px;
 }
 
+.breadcrumbs-list {
+	justify-content: center;
+}
+
 .breadcrumbs-width {
 	flex-basis: calc((100% - 96px) / 3);
 }
