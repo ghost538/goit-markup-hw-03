@@ -208,6 +208,7 @@ button {
 .text {
 	font-size: 16px;
 	line-height: calc(24 / 16);
+	width: 264px;
 }
 
 .title {
@@ -261,10 +262,6 @@ button {
 	justify-content: center;
 }
 
-.breadcrumbs-width {
-	flex-basis: calc((100% - 96px) / 3);
-}
-
 .breadcrumbs-btn {
 	font-family: inherit;
 	font-weight: 600;
@@ -285,7 +282,22 @@ button {
 	color: #ffffff;
 }
 
+.breadcrumbs-border {
+	border-bottom: 1px solid #E7E9FC;
+	border-left: 1px solid #E7E9FC;
+	border-right: 1px solid #E7E9FC;
+}
 
+/* --picture-- */
+
+/* .picture {
+	border: 1px solid #E7E9FC;
+	box-sizing: border-box;
+}
+
+.picture-width {
+	flex-basis: calc((100% - 96px) / 3);
+} */
 
 /* --Footer-- */
 
