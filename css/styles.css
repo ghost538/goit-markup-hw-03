@@ -39,6 +39,10 @@ button {
 	text-decoration: none;
 }
 
+.address {
+	margin-left: auto;
+}
+
 .visually-hidden {
 	position: absolute;
 	white-space: nowrap;
@@ -215,7 +219,6 @@ button {
 	text-transform: capitalize;
 	color: var(--main-dark-color);
 	margin-bottom: 72px;
-	padding-top: 120px;
 }
 
 /* --Team-- */
@@ -281,6 +284,8 @@ button {
 	background-color: var(--hover-color);
 	color: #ffffff;
 }
+
+
 
 /* --Footer-- */
 
