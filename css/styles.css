@@ -134,8 +134,7 @@ button {
 	letter-spacing: 0.02em;
 	color: var(--main-dark-color)
 }
-.menu-item-link:hover,
-.menu-item-link:focus {
+.menu-item-link:is(:focus,:hover) {
 	color: var(--hover-color)
 }
 
@@ -148,8 +147,7 @@ button {
 	color: #434455;
 }
 
-.contact-item-link:hover,
-.contact-item-link:focus {
+.contact-item-link:is(:focus,:hover) {
 	color:var(--hover-color);
 }
 
@@ -187,8 +185,7 @@ button {
 	padding: 16px 32px;
 	min-width: 180px;
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:is(:focus,:hover) {
 	color: #ffffff;
 	background-color: var(--hover-color);
 }
@@ -276,8 +273,7 @@ button {
 	padding: 12px 24px;
 }
 
-.breadcrumbs-btn:hover,
-.breadcrumbs-btn:focus {
+.breadcrumbs-btn:is(:focus, :hover) {
 	background-color: var(--hover-color);
 	color: #ffffff;
 }
@@ -291,12 +287,11 @@ button {
 /* --picture-- */
 
 /* .picture {
-	border: 1px solid #E7E9FC;
-	box-sizing: border-box;
+
 }
 
 .picture-width {
-	flex-basis: calc((100% - 96px) / 3);
+
 } */
 
 /* --Footer-- */
